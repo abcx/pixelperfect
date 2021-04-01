@@ -1,0 +1,114 @@
+.pixelperfect * {
+    box-sizing: border-box;
+}
+.pixelperfect {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    width: 150px;
+    border: 1px solid silver;
+    padding: 8px;
+    background: #ffffff;
+    z-index: 9999;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.pixelperfect_img {
+    /*position: absolute;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+}
+.pixelperfect .pp_hide {
+    cursor: pointer;
+    padding: 8px;
+    margin: 0 auto 8px auto;
+    background: orange;
+    text-align: center;
+    color: #ffffff;
+}
+.pp_hide_image {
+    display: none;
+}
+.pixelperfect .pp_item input[type=text] {
+    width: 80px;
+    float: right;
+}
+.pixelperfect .pp_item span {
+    clear: both;
+    width: 60px;
+    margin: 0 8px 8px 0;
+    float: left;
+}
+.pixelperfect p {
+    font-size: 12px;
+}
+.pixelperfect h3 {
+    margin: 0 0 8px 0;
+    font: 700 16px sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+.pixelperfect h3 span {
+    float: right;
+    display: inline-block;
+    height: 18px;
+    font: 700 10px sans-serif;
+    cursor: pointer;
+}
+.pixelperfect strong {
+    font-weight: 700;
+}
+.pixelperfect p {
+    font-size: 12px;
+    margin: 0 0 8px 0
+}
+.pixelperfect.minify {
+    max-height: 14px;
+    overflow: hidden;
+}
+.pixelperfect.move {
+    top: auto;
+    bottom: 8px;
+}
+.pixelperfect .arrows {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 8px;
+}
+.pixelperfect .arrows span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: orange;
+}
+.pixelperfect .arrows span.up,
+.pixelperfect .arrows span.bottom {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.pixelperfect .arrows span.up {
+    top: 0;
+}
+.pixelperfect .arrows span.bottom {
+    bottom: 0;
+}
+.pixelperfect .arrows span.left,
+.pixelperfect .arrows span.right {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.pixelperfect .arrows span.left {
+    left: 0;
+}
+.pixelperfect .arrows span.right {
+    right: 0;
+}
