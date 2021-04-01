@@ -5,7 +5,7 @@
 var gazeta_pl = gazeta_pl || {};
 
 /* append stylesheet */
-$('<link/>', {rel: 'stylesheet', href: 'https://raw.githubusercontent.com/abcx/pixelperfect/main/pixelperfect.css'}).appendTo( 'head');
+$('<link/>', {rel: 'stylesheet', href: 'https://abcx.github.io/pixelperfect/pixelperfect.css'}).appendTo( 'head');
 
 $.getScript( "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js", function( data, textStatus, jqxhr ) {
 	//console.log( data ); // Data returned
